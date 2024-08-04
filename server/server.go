@@ -1,5 +1,5 @@
 package server
 
-func createServer() string {
+func CreateServer() string {
 	return "Hello World"
 }

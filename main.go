@@ -1,13 +1,15 @@
 package main
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/gorilla/mux"
+	"github.com/hasirciogli/test-go-filesystem/server"
 )
 
 func HomeHandler(writer http.ResponseWriter, request *http.Request) {
-	server
+	fmt.Println(server.CreateServer())
 }
 func ProductsHandler(writer http.ResponseWriter, request *http.Request) {
 
