@@ -7,7 +7,7 @@ import (
 )
 
 func HomeHandler(writer http.ResponseWriter, request *http.Request) {
-	createServer()
+	server
 }
 func ProductsHandler(writer http.ResponseWriter, request *http.Request) {
 
